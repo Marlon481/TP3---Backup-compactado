@@ -1,6 +1,4 @@
-# TP3---Backup-compactado
-
-# Projeto com aplicação de Compactação de arquivos usando o algoritmo LZW
+# AED3 - TP3: Backup-compactado
 
 ## Descrição do que foi realizado
   Foi implementada apenas uma classe nova (MenuLZW), utilizada para o menu para compactar de descompactar os arquivos de livros. A principal razão da classe ter sido desenvolvida da forma que está, é tentar simular e mostrar que quanto maior a parte do arquivo carregado em memória para a compactação, menor será o arquivo de backup, pois a utilização do dicionário durante a compaatação é maior. Sendo assim, a compactação e feita de duas formas diferentes, uma carregando o arquivo inteiro em memória e aplicando o LZW, já o outro, pegando 'x' bytes fixos do arquivo de cada vez e aplicando o LZW de parte em parte, na tentativa de simlular um arquivo grande e memória para ler o arquivo limitada. Os arquivos compactados são guardados em pastas separadas para o arquivo inteiro, backup, e arquivo compactado por partes, backup2, cujo nome das pastas(versão) é a data e horário na qual o método foi iniciado.
